@@ -1,0 +1,56 @@
+machine 1
+
+a800422@052-050-CRFB-16:~/Documents/git/GLTP2$ git status hw.sh
+# On branch master
+# Your branch is ahead of 'origin/master' by 1 commit.
+#
+nothing to commit (working directory clean)
+
+
+a800422@052-050-CRFB-16:~/Documents/git/GLTP2$ git push
+Username for 'https://github.com': artufel
+Password for 'https://artufel@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 295 bytes, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/mvanhems/GLTP2.git
+   aa87cb0..9c25dc8  master -> master
+
+a800422@052-050-CRFB-16:~/Documents/git/GLTP2$ git status
+# On branch master
+
+machine 2
+
+machine 1
+a800422@052-050-CRFB-16:~/Documents/git/GLTP2$ git pull
+remote: Counting objects: 5, done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 5 (delta 0), reused 5 (delta 0)
+Unpacking objects: 100% (5/5), done.
+From https://github.com/mvanhems/GLTP2
+   9c25dc8..e5a817c  master     -> origin/master
+Updating 9c25dc8..e5a817c
+Fast-forward
+ super.sh |    3 +++
+ 1 file changed, 3 insertions(+)
+ create mode 100644 super.sh
+
+machine 1
+a800422@052-050-CRFB-16:~/Documents/git/GLTP2$ git push
+Username for 'https://github.com': artufel
+Password for 'https://artufel@github.com': 
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 328 bytes, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/mvanhems/GLTP2.git
+   e5a817c..ac52136  master -> master
+
+machine2 = rejeté
+
+machine1
+
+
